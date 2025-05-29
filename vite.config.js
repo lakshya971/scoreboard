@@ -7,8 +7,7 @@ export default defineConfig({
   base: '/scoreboard/',
 
   plugins: [
-    react(),
-    tailwindcss(),
+    react()
   ],
   server: {
     port: 5173,
